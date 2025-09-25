@@ -11,7 +11,6 @@
   libnotify,
   librsvg,
   libwnck,
-  libxklavier,
   garcon,
   libxfce4ui,
   libxfce4util,
@@ -49,7 +48,6 @@ stdenv.mkDerivation (finalAttrs: {
     librsvg
     libxfce4ui
     libxfce4util
-    libxklavier
     libwnck
     xfce4-panel
     xfconf

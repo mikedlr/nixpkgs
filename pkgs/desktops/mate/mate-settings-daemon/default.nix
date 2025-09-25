@@ -5,7 +5,6 @@
   pkg-config,
   gettext,
   glib,
-  libxklavier,
   libcanberra-gtk3,
   libnotify,
   libmatekbd,
@@ -39,7 +38,6 @@ stdenv.mkDerivation rec {
   ];
 
   buildInputs = [
-    libxklavier
     libcanberra-gtk3
     libnotify
     libmatekbd

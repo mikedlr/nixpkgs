@@ -10,7 +10,6 @@
   libepoxy,
   xorg,
   at-spi2-core,
-  libxklavier,
   libxkbcommon,
   gtk3,
   vala,
@@ -56,7 +55,6 @@ stdenv.mkDerivation {
     xorg.libXdmcp
     gdk-pixbuf
     clutter-gtk
-    libxklavier
     at-spi2-core
     libxkbcommon
     xorg.libpthreadstubs

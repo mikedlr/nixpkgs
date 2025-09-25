@@ -11,7 +11,6 @@
   accountsservice,
   caja,
   dbus-glib,
-  libxklavier,
   libcanberra-gtk3,
   libgtop,
   libmatekbd,
@@ -63,7 +62,6 @@ stdenv.mkDerivation rec {
     accountsservice
     libxml2
     dbus-glib
-    libxklavier
     libcanberra-gtk3
     libgtop
     libmatekbd

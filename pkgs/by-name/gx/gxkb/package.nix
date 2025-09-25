@@ -8,7 +8,6 @@
   pkg-config,
   gtk3,
   libwnck,
-  libxklavier,
   appindicatorSupport ? true,
   libayatana-appindicator,
 }:
@@ -31,7 +30,6 @@ stdenv.mkDerivation rec {
   buildInputs = [
     gtk3
     libwnck
-    libxklavier
   ]
   ++ lib.optional appindicatorSupport libayatana-appindicator;
 

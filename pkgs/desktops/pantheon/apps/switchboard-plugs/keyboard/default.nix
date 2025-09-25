@@ -18,7 +18,6 @@
   gtk4,
   libxml2,
   libgnomekbd,
-  libxklavier,
   ibus,
   onboard,
   switchboard,
@@ -63,7 +62,6 @@ stdenv.mkDerivation rec {
     ibus
     libadwaita
     libgee
-    libxklavier
     switchboard
   ];
 

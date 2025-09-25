@@ -16,7 +16,6 @@
   libXdmcp,
   itstool,
   intltool,
-  libxklavier,
   libgcrypt,
   audit,
   busybox,
@@ -70,7 +69,6 @@ stdenv.mkDerivation rec {
     libXdmcp
     libgcrypt
     libxcb
-    libxklavier
     pam
     polkit
   ]

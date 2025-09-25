@@ -8,7 +8,6 @@
   gobject-introspection,
   glib,
   gtk3,
-  libxklavier,
   wrapGAppsHook3,
   gnome,
 }:
@@ -39,7 +38,6 @@ stdenv.mkDerivation rec {
   # Requires in libgnomekbd.pc
   propagatedBuildInputs = [
     gtk3
-    libxklavier
     glib
   ];
 

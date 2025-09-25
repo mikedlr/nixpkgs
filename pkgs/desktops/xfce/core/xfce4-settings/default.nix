@@ -12,7 +12,6 @@
   libXext,
   libxfce4ui,
   libxfce4util,
-  libxklavier,
   upower,
   # Disabled by default on upstream and actually causes issues:
   # https://gitlab.xfce.org/xfce/xfce4-settings/-/issues/222
@@ -46,7 +45,6 @@ mkXfceDerivation {
     libXext
     libxfce4ui
     libxfce4util
-    libxklavier
     wlr-protocols
     xf86inputlibinput
     xfconf

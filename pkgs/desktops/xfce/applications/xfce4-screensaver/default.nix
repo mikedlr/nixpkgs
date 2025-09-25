@@ -20,7 +20,6 @@
   libwnck,
   libxfce4ui,
   libxfce4util,
-  libxklavier,
   pam,
   python3,
   systemd,
@@ -70,7 +69,6 @@ stdenv.mkDerivation (finalAttrs: {
     libwnck
     libxfce4ui
     libxfce4util
-    libxklavier
     pam
     pythonEnv
     systemd

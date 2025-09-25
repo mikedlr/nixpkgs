@@ -11,7 +11,6 @@
   dbus,
   python3,
   libxml2,
-  libxklavier,
   libXtst,
   gtk2,
   intltool,
@@ -88,7 +87,6 @@ stdenv.mkDerivation rec {
 
   propagatedBuildInputs = [
     libgee
-    libxklavier
   ];
 
   postPatch = ''

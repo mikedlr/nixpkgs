@@ -8,7 +8,6 @@
   glib,
   gtk3-x11,
   gobject-introspection,
-  libxklavier,
   gitUpdater,
 }:
 
@@ -38,7 +37,6 @@ stdenv.mkDerivation rec {
   buildInputs = [
     glib
     gtk3-x11
-    libxklavier
   ];
 
   postInstall = ''
